@@ -1,46 +1,55 @@
-# FinBraz App
+# FinBraz
 
-FinBraz é um aplicativo de gerenciamento financeiro que permite aos usuários controlar seus saldos bancários, dívidas, investimentos e muito mais.
+## 🚀 Sobre o Projeto
 
-## Características
+O FinBraz é uma plataforma digital criada para auxiliar jovens adultos no Brasil a gerir suas finanças pessoais de maneira mais eficaz e intuitiva. Com o FinBraz, você tem um panorama claro e atualizado da sua situação financeira, o que permite tomar decisões mais embasadas sobre gastos e investimentos, e atingir seus objetivos financeiros mais rapidamente. O aplicativo é projetado para ser seguro, confiável e fácil de usar, tornando a gestão de finanças pessoais uma tarefa menos complicada e mais agradável.
+
+## 🎯 Funcionalidades
 
 - Visualização de saldos bancários e dívidas
 - Checagem da saúde do CPF do usuário
 - Dashboard de gastos
-- Rendimento dos investimentos
+- Acompanhamento do rendimento dos investimentos
 - Planejador financeiro
 
-## Configuração do Projeto
+## 🎨 Identidade Visual
 
-Este projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) versão 12.0.0.
+- **Logo**: Uma combinação moderna e minimalista das letras "F" e "B" de FinBraz, formando um símbolo único e reconhecível.
+- **Paleta de cores**: Inclui uma combinação de azul escuro (confiança, estabilidade) e verde (dinheiro, crescimento), complementada por tons de cinza e branco para um toque de modernidade e simplicidade.
+- **Tipografia**: Fonte sans-serif com linhas limpas e formas geométricas para um visual moderno e minimalista. Tipografia mais pesada para os títulos para adicionar impacto, e fonte mais leve para o texto do corpo para facilitar a leitura.
+- **Imagens e ícones**: Simples, limpos e fáceis de reconhecer, utilizando a paleta de cores no design dos ícones para garantir a consistência.
+- **Interface do usuário**: Limpa e sem esforço com uma navegação intuitiva.
+
+## 💻 Configuração do Projeto
+
+Este projeto foi gerado com Angular CLI versão 12.0.0.
 
 ### Pré-requisitos
 
-- Node.js
-- Angular CLI
-- Um servidor web (como o Lite-server)
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 
-### Inicialização do Projeto
+- [Git](https://git-scm.com)
+- [Node.js](https://nodejs.org/en/)
+- [Angular CLI](https://angular.io/cli)
 
-1. Clone este repositório
-2. Navegue até o diretório do projeto em seu terminal
-3. Execute `npm install` para instalar as dependências do projeto
-4. Execute `ng serve` para iniciar um servidor de desenvolvimento. Navegue até `http://localhost:4200/`. O aplicativo será automaticamente recarregado se você alterar qualquer um dos arquivos de origem.
+### 🎲 Executando o Projeto
 
-### Build
+```bash
+# Clone este repositório
+$ git clone <https://github.com/gabuoff/app-crud-finbraz/>
 
-Execute `ng build` para construir o projeto. Os artefatos de construção serão armazenados no diretório `dist/`. Use a flag `--prod` para uma construção de produção.
+# Acesse a pasta do projeto no terminal/cmd
+$ cd app-crud-finbraz
 
-## Testes
+# Instale as dependências
+$ npm install
 
-### Testes Unitários
+# Execute a aplicação
+$ ng serve
 
-Execute `ng test` para executar os testes unitários via [Karma](https://karma-runner.github.io).
+# O servidor inciará na porta:4200 - acesse <http://localhost:4200>
+```
 
-### Testes de Ponta a Ponta
+## 📝 Licença
 
-Execute `ng e2e` para executar os testes de ponta a ponta via [Protractor](http://www.protractortest.org/).
-
-## Mais ajuda
-
-Para obter mais ajuda sobre o Angular CLI, use `ng help` ou confira a página [Angular CLI Overview and Command Reference](https://angular.io/cli).
+Este projeto está sob a licença MIT. Veja o [LICENSE](LICENSE.md) para mais detalhes.
