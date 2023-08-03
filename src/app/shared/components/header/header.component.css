@@ -1,0 +1,16 @@
+/* Definindo a cor de fundo para azul escuro e a cor do texto para branco */
+.app-header {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+  }
+  
+  
+  .logo {
+    font-weight: bold;
+    font-size: 1.5em;
+    flex-grow: 1;
+  }
+  
+  .nav-links a {
+    margin-right: 15px;
+  }

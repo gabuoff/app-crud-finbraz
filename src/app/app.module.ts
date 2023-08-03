@@ -11,6 +11,8 @@ import { SidebarLeftComponent } from './shared/components/sidebar-left/sidebar-l
 import { FinancialPlannerComponentComponent } from './modules/financialPlanner/components/financial-planner-component/financial-planner-component.component';
 import { CpfHealthComponentComponent } from './modules/cpfHealth/components/cpf-health-component/cpf-health-component.component';
 import { SupportContactComponentComponent } from './modules/supportContact/components/support-contact-component/support-contact-component.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MaterialModule } from './material/material.module';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { SupportContactComponentComponent } from './modules/supportContact/compo
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
